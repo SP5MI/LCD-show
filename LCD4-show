@@ -17,7 +17,7 @@ sudo cp -rf /usr/share/X11/xorg.conf.d/10-evdev.conf /usr/share/X11/xorg.conf.d/
 fi
 
 if test "$j" = "retropie" ;then
-sudo cp -rf ./nes /home/pi/RetroPie/roms/
+sudo cp -rf ./nes /home/user/RetroPie/roms/
 fi
 
 echo "1" > ./boot/mark

@@ -1,1 +1,1 @@
-cmd_/home/pi/LCD-show-master/st7789_module/Module.symvers := sed 's/ko$$/o/' /home/pi/LCD-show-master/st7789_module/modules.order | scripts/mod/modpost -m -a   -o /home/pi/LCD-show-master/st7789_module/Module.symvers -e -i Module.symvers   -T -
+cmd_/home/user/LCD-show-master/st7789_module/Module.symvers := sed 's/ko$$/o/' /home/user/LCD-show-master/st7789_module/modules.order | scripts/mod/modpost -m -a   -o /home/user/LCD-show-master/st7789_module/Module.symvers -e -i Module.symvers   -T -

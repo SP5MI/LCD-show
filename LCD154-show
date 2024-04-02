@@ -17,7 +17,7 @@ sudo cp -rf /usr/share/X11/xorg.conf.d/10-evdev.conf /usr/share/X11/xorg.conf.d/
 fi
 
 if test "$j" = "retropie" ;then
-sudo cp -rf ./nes /home/pi/RetroPie/roms/
+sudo cp -rf ./nes /home/user/RetroPie/roms/
 
 sudo mkdir -p /usr/src/mk_arcade_joystick_rpi-0.1.5/
 sudo mkdir -p /etc/modprobe.d/

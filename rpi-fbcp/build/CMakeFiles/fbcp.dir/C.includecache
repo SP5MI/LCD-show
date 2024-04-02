@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/pi/LCD-show/rpi-fbcp/main.c
+/home/user/LCD-show/rpi-fbcp/main.c
 stdio.h
 -
 syslog.h

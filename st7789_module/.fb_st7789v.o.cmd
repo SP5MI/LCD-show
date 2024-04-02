@@ -1,8 +1,8 @@
-cmd_/home/pi/LCD-show-master/st7789_module/fb_st7789v.o := gcc -Wp,-MMD,/home/pi/LCD-show-master/st7789_module/.fb_st7789v.o.d  -nostdinc -isystem /usr/lib/gcc/arm-linux-gnueabihf/8/include -I./arch/arm/include -I./arch/arm/include/generated  -I./include -I./arch/arm/include/uapi -I./arch/arm/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -std=gnu89 -fno-dwarf2-cfi-asm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -fno-ipa-sra -mabi=aapcs-linux -mfpu=vfp -marm -Wa,-mno-warn-deprecated -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -O2 --param=allow-store-data-races=0 -Wframe-larger-than=1024 -fstack-protector-strong -Wimplicit-fallthrough -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -pg -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wno-stringop-truncation -Wno-array-bounds -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned  -DMODULE  -DKBUILD_BASENAME='"fb_st7789v"' -DKBUILD_MODNAME='"fb_st7789v"' -c -o /home/pi/LCD-show-master/st7789_module/fb_st7789v.o /home/pi/LCD-show-master/st7789_module/fb_st7789v.c
+cmd_/home/user/LCD-show-master/st7789_module/fb_st7789v.o := gcc -Wp,-MMD,/home/user/LCD-show-master/st7789_module/.fb_st7789v.o.d  -nostdinc -isystem /usr/lib/gcc/arm-linux-gnueabihf/8/include -I./arch/arm/include -I./arch/arm/include/generated  -I./include -I./arch/arm/include/uapi -I./arch/arm/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -std=gnu89 -fno-dwarf2-cfi-asm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -fno-ipa-sra -mabi=aapcs-linux -mfpu=vfp -marm -Wa,-mno-warn-deprecated -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -O2 --param=allow-store-data-races=0 -Wframe-larger-than=1024 -fstack-protector-strong -Wimplicit-fallthrough -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -pg -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wno-stringop-truncation -Wno-array-bounds -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned  -DMODULE  -DKBUILD_BASENAME='"fb_st7789v"' -DKBUILD_MODNAME='"fb_st7789v"' -c -o /home/user/LCD-show-master/st7789_module/fb_st7789v.o /home/user/LCD-show-master/st7789_module/fb_st7789v.c
 
-source_/home/pi/LCD-show-master/st7789_module/fb_st7789v.o := /home/pi/LCD-show-master/st7789_module/fb_st7789v.c
+source_/home/user/LCD-show-master/st7789_module/fb_st7789v.o := /home/user/LCD-show-master/st7789_module/fb_st7789v.c
 
-deps_/home/pi/LCD-show-master/st7789_module/fb_st7789v.o := \
+deps_/home/user/LCD-show-master/st7789_module/fb_st7789v.o := \
   include/linux/kconfig.h \
     $(wildcard include/config/cc/version/text.h) \
     $(wildcard include/config/cpu/big/endian.h) \
@@ -584,7 +584,7 @@ deps_/home/pi/LCD-show-master/st7789_module/fb_st7789v.o := \
     $(wildcard include/config/modules/use/elf/rel.h) \
     $(wildcard include/config/modules/use/elf/rela.h) \
   include/video/mipi_display.h \
-  /home/pi/LCD-show-master/st7789_module/fbtft.h \
+  /home/user/LCD-show-master/st7789_module/fbtft.h \
   include/linux/fb.h \
     $(wildcard include/config/gumstix/am200epd.h) \
     $(wildcard include/config/fb/notify.h) \
@@ -1117,6 +1117,6 @@ deps_/home/pi/LCD-show-master/st7789_module/fb_st7789v.o := \
     $(wildcard include/config/hibernate/callbacks.h) \
     $(wildcard include/config/superh.h) \
 
-/home/pi/LCD-show-master/st7789_module/fb_st7789v.o: $(deps_/home/pi/LCD-show-master/st7789_module/fb_st7789v.o)
+/home/user/LCD-show-master/st7789_module/fb_st7789v.o: $(deps_/home/user/LCD-show-master/st7789_module/fb_st7789v.o)
 
-$(deps_/home/pi/LCD-show-master/st7789_module/fb_st7789v.o):
+$(deps_/home/user/LCD-show-master/st7789_module/fb_st7789v.o):

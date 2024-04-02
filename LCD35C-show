@@ -16,7 +16,7 @@ if test "$var1" = "0"  -a "$1" != "lite" -a "$2" != "lite";then
 	fi
 
         if test "$j" = "retropie" ;then
-	sudo cp -rf ./nes /home/pi/RetroPie/roms/
+	sudo cp -rf ./nes /home/user/RetroPie/roms/
 	fi
 
 echo "1" > ./boot/mark
